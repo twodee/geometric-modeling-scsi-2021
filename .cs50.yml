@@ -1,0 +1,11 @@
+lab50:
+  window:
+    - editor
+    - readme
+    - terminal
+    - browser
+  files:
+    - !include index.html
+    - !include style.css
+    - !include script.js
+  cmd: http-server
